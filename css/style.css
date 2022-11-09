@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+    min-height: 100vh;
+}
+
+header{
+    /* border: 2px solid green; */
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+header h1{
+    /* border: 1px solid yellow; */
+    width: 20%;
+    text-transform: capitalize;
+    color: rgb(2, 81, 2);
+}
+
+header nav{
+    /* border: 1px solid blue; */
+    width: 70%;
+}
+
+nav ul{
+    /* border: 1px solid red; */
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+nav ul a{
+    text-decoration: none;
+    color: green;
+
+}
+
+nav ul a:hover, nav ul a:focus{
+    color: rgb(6, 196, 6)
+}
+
+nav ul a:active{
+    color: orange
+}
+
+.banner{
+    height: 50vh;
+    background-image: url("https://media.istockphoto.com/id/1364409548/photo/the-sun-rising-over-mountains-on-a-winter-day.jpg?b=1&s=170667a&w=0&k=20&c=cYWoQBSlPLAndWN4UgM85k_gRHsXg9PCP580XNR7LkA=");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrap{
+    white-space: nowrap;
+}
+
+.banner h2 {
+    /* border: 1px solid black; */
+    font-size: 3em;
+    color: #FFF;
+    text-decoration: underline;
+    margin-bottom: 30px;
+}
+
+.banner p{
+    font-size: 1.25em;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.arrow{
+    background-color:  #ff6700;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    margin-left: 130px;
+
+}
+
+
+.section1{
+    text-align: center;
+    padding: 2rem;
+    color: rgb(2, 81, 2);
+}
+
+.boxes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.boxes article{
+    width: 24.9%;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(241, 241, 241);
+}
+
+article img{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    margin-bottom: 1em;;
+}
+
+article h4{
+    margin-bottom: 1em;
+    color: rgb(97, 129, 99);
+    text-transform: capitalize;
+}
+
+article p{
+    margin-bottom: 2em;
+    text-align: center;
+}
+
+.btn{
+    padding: 5px 10px;
+    color: #fff;
+    border: none;
+    background-color: rgb(97, 129, 99);
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+
+
+
